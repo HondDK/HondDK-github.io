@@ -1,10 +1,32 @@
 body {
-	background-color: gray;
-	color: white;
+	background-color: black;
 }
 a {
 	font-family: arial, arial;
+	font-weight: bold;
+	color: white;
+	font-size: 10vh;
 }
+
 .ss {
 	text-align: center;
+	margin: auto;
+	margin-top: 40vh;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+	a {
+		font-size: 5vh;
+	}
+}
+@media screen and (max-width: 564px) {
+	a {
+		font-size: 3vh;
+	}
+}
+@media screen and (max-width: 348px) {
+	a {
+		font-size: 2vh;
+	}
 }
